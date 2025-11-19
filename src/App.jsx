@@ -142,7 +142,6 @@ export default function App() {
             placeholder="Description..."
             value={description}
             onChange={(e) => setDescription(e.target.value)}
-            required
             style={{
               width: "95%",
               padding: 12,
